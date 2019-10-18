@@ -6,7 +6,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta property="fb:pages" content="652383171612747" />
+    <meta property="fb:pages" content="{{ env('fb_id') }}" />
     <link rel="canonical" href="{{ url()->current() }}" itemprop="url">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
