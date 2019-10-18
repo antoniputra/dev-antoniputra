@@ -17,7 +17,7 @@ class Article extends Model implements Feedable
             'title' => $this->title,
             'link' => route('article.show', $this->id),
             'summary' => $this->content,
-            'author' => 'IvideoSmart',
+            'author' => 'Antoni Putra',
             'created_at' => $this->created_at,
             'updated' => $this->updated_at,
         ]);

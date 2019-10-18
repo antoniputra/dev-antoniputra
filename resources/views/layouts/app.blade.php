@@ -6,6 +6,9 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    @include('feed::links')
+
     <meta property="fb:pages" content="{{ env('fb_id') }}" />
     <link rel="canonical" href="{{ url()->current() }}" itemprop="url">
 
